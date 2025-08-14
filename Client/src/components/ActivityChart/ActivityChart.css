@@ -1,0 +1,19 @@
+.activity-card {
+  background: #e9fbcf;
+  border-radius: 12px;
+  padding: 15px;
+  margin-left: 70px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-header select {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}

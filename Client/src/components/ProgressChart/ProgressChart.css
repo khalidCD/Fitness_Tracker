@@ -1,0 +1,40 @@
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.donut-chart {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+.donut-center {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  text-align: center;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+

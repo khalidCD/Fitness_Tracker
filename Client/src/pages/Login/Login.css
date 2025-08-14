@@ -1,0 +1,94 @@
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px; 
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f0fce5;
+}
+
+.login-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-left img {
+  width: 80%;
+  margin-left: 180px; 
+}
+
+.login-right {
+  flex: 1;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px; 
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 25px;
+}
+
+.login-right h2 {
+  font-weight: 600;
+  margin-bottom: 35px;
+  font-size: 28px;
+}
+
+.login-form {
+  width: 150%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  margin-bottom: 18px;
+  padding: 16px;
+  font-size: 19px; 
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.login-form button {
+  background-color: #c6e33b;
+  border: none;
+  padding: 17px; 
+  font-size: 17px; 
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.login-form button:hover {
+  background-color: #b8d634;
+}
+
+.register-text {
+  margin-top: 25px;
+  font-size: 18px; 
+}
+
+.register-text a {
+  color: #8a9f00;
+  font-weight: 600;
+  text-decoration: none;
+}
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+

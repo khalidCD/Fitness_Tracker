@@ -1,0 +1,90 @@
+.profile-sidebar {
+  width: 350px;
+  height: 150vh;
+  background-color: #e3e4e5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-info h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 13px;
+  color: gray;
+}
+
+.logout-icon {
+  margin-left: auto;
+  color: rgb(220, 0, 0);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.completion-percent {
+  display: block;
+  background-color: #d4ed63;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.goal-card,
+.schedule-card {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.schedule-card {
+  justify-content: space-between;
+}
+
+.edit-profile-button {
+  margin-top: 10px;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.profile-section {
+  font-size: 20px;
+}
+
+.goal-icon,
+.schedule-icon {
+  width: 50px;   
+  height: 65px;  
+  margin-right: 12px; 
+  vertical-align: middle; 
+}
+
+.schedule-card .schedule-icon {
+  margin-right: 20px; 
+}

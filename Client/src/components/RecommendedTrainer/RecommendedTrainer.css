@@ -1,0 +1,65 @@
+.recommended-trainer {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.recommended-trainer h3 {
+  margin-bottom: 15px;
+  font-size: 22px; 
+  font-weight: bold;
+}
+
+.trainer-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.trainer-card {
+  background: #eeeeee;
+  border-radius: 16px;
+  padding: 20px;
+  width: 330px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.trainer-img {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.trainer-card h4 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.trainer-card p {
+  font-size: 15px; 
+  color: #444;
+}
+
+.trainer-stats {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 12px 0;
+  font-size: 15px; 
+}
+
+.view-profile-button{
+  background: transparent;
+  border: 1px solid #ccc;
+  font-size: 15px; 
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.view-profile-button:hover {
+  background: #ffffff;
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.register-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f0fce5;
+}
+
+.register-left {
+  flex: 1;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 25px;
+}
+
+.register-left h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.register-form {
+  width: 110%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form input {
+  margin-bottom: 18px;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.register-form button {
+  background-color: #c6e33b;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.register-form button:hover {
+  background-color: #b8d634;
+}
+
+.login-text {
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.login-text a {
+  color: #8a9f00;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-right img {
+  width: 75%;
+  margin-right: 370px;
+  margin-top: 11%;
+}
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
